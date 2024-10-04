@@ -1,17 +1,16 @@
 import './App.css';
 import Contact from './Components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Correct imports
-import Hersosection from './Components/Hersosection';
-import Navbar from './Components/Navbar';
 import DiaryHolder from './Components/DiaryHolder';
+import Hero from './Components/Hero';
 
 function App() {
   return (
     <>
       <Router> {/* Wrap everything in Router */}
-        <Navbar />
+        
         <Routes>
-          <Route path='/' element={<Hersosection />} />
+          <Route path='/' element={<Hero />} />
           <Route path='/Diary' element={<DiaryHolder />} />
         </Routes>
       </Router>

@@ -5,6 +5,7 @@ import Eventing from './Eventing';
 import Stackcard from './Stackcard';
 import Slider from './Slider';
 import Join from './Join';
+import Navbar from './Navbar';
 
 const Herosesection = () => {
   useEffect(() => {
@@ -41,6 +42,7 @@ const Herosesection = () => {
 
   return (
     <div>
+      <Navbar />
       <div className="hero-section">
         {/* Background Video */}
         <video src='/back.mp4' className="background-video" autoPlay loop muted />

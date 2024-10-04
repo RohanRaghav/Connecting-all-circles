@@ -79,7 +79,7 @@ const Stackcard = () => {
                   <label style={{}} htmlFor={`toggle-heart-${card._id}`} aria-label="like">
                     ❤
                   </label>
-                  <span>{card.likes} Likes</span>
+                  <span className='span'>{card.likes} Likes</span>
                 </div>
               </div>
               <p style={{fontSize:'0.9rem'}}>{card.content}</p>

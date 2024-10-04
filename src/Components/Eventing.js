@@ -10,32 +10,32 @@ const Eventing = () => {
     {
       image: '/c2carnival.jpg',
       title: 'C^2 Carnival',
-      content: 'This is a short description for card 1.',
+      content: 'The event was a vibrant showcase of student talents, featuring interactive games, guest lectures, and a dynamic flash mob embodying the spirit of community, creativity, and collaboration within CAC.',
     },
     {
       image: '/Bootcamp.jpg',
       title: 'FrontEnd Bootcamp',
-      content: 'This is a short description for card 2.',
+      content: 'The three-day Frontend Web Development Bootcamp equipped participants with essential skills in HTML, CSS, and JavaScript. It fostered hands-on learning, empowering attendees to build dynamic, responsive websites.',
     },
     {
       image: '/Greet.png',
       title: 'Greet & Meet',
-      content: 'This is a short description for card 3.',
+      content: "The Greet and Meet event was filled with excitement, featuring member introductions, fun activities, a goodies giveaway, and a lively DJ. The success was driven by the management team's creativity, leadership, and teamwork throughout.",
     },
     {
       image: '/Tekathon2.0.jpeg',
       title: 'Tekathon 2.0',
-      content: 'This is a short description for card 4.',
+      content: 'Tekathon 2.0 encouraged students to solve real-world challenges using advanced technologies. It promoted creativity, teamwork, and skills, helping participants represent our institution at **SIH 2023** with innovative, impactful solutions.',
     },
     {
       image: '/Diwali.jpg',
       title: 'Diwali Extra Vaganeza',
-      content: 'This is a short description for card 5.',
+      content: 'The recent Diwali Extravaganza was a vibrant celebration filled with colorful decorations, traditional performances, and delicious festive treats. It brought the community together, fostering joy and cultural appreciation as attendees enjoyed a truly memorable experience.',
     },
     {
       image: 'https://newsstation.media/wp-content/uploads/2024/02/image00282N2-780x398.jpg',
       title: 'Dark Pattern Buster Hackathon',
-      content: 'This is a short description for card 6.',
+      content: 'Round 2 of the ‘Dark Patterns Buster Hackathon 2024’ at Chandigarh University showcased innovative solutions from the top 5 teams highlighting the spirit of collaboration and problem-solving.',
     },
     {
       image: '/teknoxian.png',

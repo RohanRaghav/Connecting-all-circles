@@ -334,7 +334,6 @@
   background-color: transparent;
   box-shadow: none;
   pointer-events: none;
-  transform: rotate(-15deg);
 }
 .cards-containers {
   display: flex;
@@ -799,7 +798,13 @@
   height: 50px;
   position: relative;
 }
-
+.logos{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  padding: 20px;
+  z-index: 5;
+}
 .cover{
   position: relative;
   width: 100%;
@@ -1015,12 +1020,17 @@
     top: 450px;
   }
   .hamburger-icon{
-    padding: 10px;
+    padding: 20px;
     width: 50px;
     height: 50px;
+    position: relative;
+    float: right;
   }
   .background-video{
     width: 100vh;
+  }
+  .stack-container{
+    height: 200vh;
   }
   .connecting{
     margin-top: 50px;
@@ -1038,4 +1048,141 @@
     font-size: 1.8rem;
     margin-bottom: 20px;
   }
+  .background-texts{
+    height: 30px;
+    top: 0px;
+    margin-bottom: 100px;
+  }
+  .background-text{
+    padding-top: 200px;
+    font-size: 2rem;
+  }
+  .stack-card{
+    position: sticky;
+    top: 20px;
+    margin: 0px;
+    padding: 10px;
+    width: 120%;
+  }
+  .slider-image{
+    width: 100px;
+    height: 100px;
+  }
+  .joining{
+    display: flex;
+    width: 100vh;
+    flex-direction: column;
+  }
+}
+.Mobile-Nav {
+  display: flex;
+  flex-direction: row; /* Change to row to place items side by side */
+  justify-content: space-between; /* Ensure left and right alignment */
+  align-items: center; /* Optional: Align items vertically if needed */
+}
+
+.mobile-nav{
+  background-color: white;
+}
+
+.mobile-hero {
+  content: '';
+  background: url(/public/Group46.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  position: relative; /* Keep this relative to ensure the child absolute positioning works */
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  height: 300px;
+  z-index: 2; /* Place this above the .mobile-back-hero */
+}
+
+.mobile-back-hero {
+  content: '';
+  background: white; /* Or any background color */
+  position: absolute; /* Set this as absolute to overlap with .mobile-hero */
+  top: 100px; /* Ensure the top of both elements align */
+  left: 0;
+  width: 100%; /* Make sure it spans the entire width */
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  height: 300px;
+  z-index: 1; /* Lower z-index so it's behind the .mobile-hero */
+}
+
+.mobile-title{
+  color: white;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.Mobile-event{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.mobile-event-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  gap: 16px; /* Space between cards */
+  padding: 16px;
+}
+.center-event {
+  justify-content: center; /* Centers the card when there's only one */
+}
+.mobile-event-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-event-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mobile-event-headline {
+  font-size: 1.2rem;
+  margin: 12px 0;
+  color: #333;
+}
+
+.mobile-event-description {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+@media (min-width: 640px) {
+  .mobile-event-container {
+    display: none; /* Hide the component on screens larger than mobile */
+    flex-direction: row;
+  }
+}
+.mobile-avtar{
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+
+@media (max-width: 768px) {
+  .transparent {
+    display: none;
+  }
+}
+.mobileForm{
+  margin-left: 15px;
+}
+
+.span{
+  justify-content: center;
+  text-align: center;
 }

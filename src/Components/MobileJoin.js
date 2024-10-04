@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const Join = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+const MobileJoin = () => {
+    const [isSubmitted, setIsSubmitted] = useState(false);
   const [formHeight, setFormHeight] = useState(260);
   const [formPosition, setFormPosition] = useState(-30);
   const [formData, setFormData] = useState({
@@ -89,7 +89,7 @@ const Join = () => {
   };
 
   const envelopeStyle = {
-    width: '400px',
+    width: '350px',
     height: '80vh',
     backgroundColor: '#f0f0f0',
     border: '1px solid #999',
@@ -101,7 +101,7 @@ const Join = () => {
   };
 
   const flapStyle = {
-    width: '60px',
+    width: '10px',
     height: '0',
     borderLeft: '170px solid transparent',
     borderRight: '170px solid transparent',
@@ -117,42 +117,16 @@ const Join = () => {
 
   return (
     <div>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontFamily: 'Arial, sans-serif',
-          flexDirection: 'row',
-          gap: '100px',
-        }}
-        className='joining'
-      >
-        <div style={{ textAlign: 'justify' }}>
-          <h1 className="destruction-text" style={{ color: 'white', fontSize: '4rem', textAlign: 'center' }}>
-            Join us
-          </h1>
-          <p className="destruction-text" style={{ color: 'white', fontSize: '1rem', maxWidth: '500px' }}>
-            Connecting All Circles is a vibrant community dedicated to igniting creativity and encouraging exploration among students. Our mission is to provide opportunities for students to discover and pursue their passions across various domains.
+      <div className='Mobile-event'>
+        <h1 className='mobile-title'>Join Us</h1>
+        <p style={{color:'white',textAlign:'justify',padding:'10px'}}> Connecting All Circles is a vibrant community dedicated to igniting creativity and encouraging exploration among students. Our mission is to provide opportunities for students to discover and pursue their passions across various domains.
             <br />
             At CAC Club, we believe in the power of community, creativity, and collaboration. We aim to bring together individuals from diverse backgrounds to share knowledge, skills, and experiences that foster growth and innovation.
             <br />
             We envision a world where everyone has the opportunity to reach their full potential. By empowering our members with the tools and support they need, we strive to create a lasting impact on individuals and communities. We focus on raising awareness about and preparing students for government hackathons and competitions, promoting interdisciplinary projects, and bridging the gap between senior and junior students through mentorship.
           </p>
-
-          {/* Add SVG filter for pixelation effect */}
-          <svg>
-            <filter id="pixelate">
-              <feFlood floodColor="black" result="flood" />
-              <feComposite in="SourceGraphic" operator="in" />
-              <feMorphology operator="dilate" radius="1" />
-              <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" />
-              <feDisplacementMap in="SourceGraphic" scale="10" />
-              <feComposite operator="in" in2="SourceGraphic" />
-            </filter>
-          </svg>
-        </div>
-        <div style={envelopeStyle}>
+          <div className='mobileForm'>
+          <div style={envelopeStyle}>
           <div style={flapStyle}></div>
           <form onSubmit={handleSubmit} style={formStyle} className="application-form">
             <div>
@@ -228,10 +202,9 @@ const Join = () => {
             </div>
           )}
         </div>
-        {message && <p>{message}</p>}
-      </div>
+      </div></div>
     </div>
-  );
-};
+  )
+}
 
-export default Join;
+export default MobileJoin
