@@ -7,9 +7,10 @@ const Stackcard = () => {
 
   const cardContent = [
     { _id: '1', title: '', content: '', image: '', alt: '' }, // First transparent card
-    { _id: '2', title: 'Card 1', content: 'This is the first card', image: '/Greet.png', alt: 'Image 1' },
-    { _id: '3', title: 'Card 2', content: 'This is the second card', image: '/teknoxian.png', alt: 'Image 2' },
-    { _id: '4', title: 'Card 3', content: 'This is the third card', image: '/image3.png', alt: 'Image 3' },
+    { _id: '2', title: 'How has Connecting All Circles helped you in your personal or professional growth?', content: 'Being part of Connecting All Circles has tremendously boosted my networking and communication skills. The collaborative environment encouraged me to step out of my comfort zone, and I gained valuable insights from peers and mentors. This experience has positively influenced both my academic journey and professional career.', image: '/Greet.png', alt: 'Image 1' },
+    { _id: '3', title: 'What do you enjoy the most about being a member of the Connecting All Circles community?', content: 'I love the diversity and inclusivity of this community. The club offers a platform where people from different fields come together to share knowledge, ideas, and resources. It’s a place where creativity flourishes, and everyone’s input is valued.', image: '/teknoxian.png', alt: 'Image 2' },
+    { _id: '4', title: 'How has the club’s events and activities impacted your skill development?', content: 'The workshops and hackathons organized by Connecting All Circles have been a game-changer for me. They are always well-structured and provide hands-on experience that has helped me refine my problem-solving skills and broaden my technical expertise.', image: '/Diwali.jpg', alt: 'Image 3' },
+    { _id: '5', title: 'Why would you recommend someone to join Connecting All Circles?', content: "I would highly recommend joining Connecting All Circles for anyone looking to grow both personally and professionally. The club offers incredible opportunities for learning, leadership, and collaboration. It's a great platform for students who want to build a network and gain real-world experience while making lifelong connections.", image: '/think.png', alt: 'Image 4' },
     // Add more cards as needed
   ];
 
@@ -81,7 +82,7 @@ const Stackcard = () => {
                   <span>{card.likes} Likes</span>
                 </div>
               </div>
-              <p>{card.content}</p>
+              <p style={{fontSize:'0.9rem'}}>{card.content}</p>
             </>
           )}
         </div>
