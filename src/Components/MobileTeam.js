@@ -12,11 +12,12 @@ const Title = styled.h2`
 
 const TeamMember = styled.div`
   display: inline-block;
-  background-color: #333; 
+  background-color: white; 
   padding: 10px;
   border-radius: 10px;
   width: 120px; /* Adjust as needed */
-  color: white;
+  color: black;
+  border: 4px solid grey;
   text-align: center;
   transition: transform 0.3s ease; 
   position: relative;

@@ -11,10 +11,10 @@
 /* Background Video */
 .background-video {
   position: fixed; /* Keeps the video in the background as you scroll */
-  top: 0;
+  top: -190px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 130%;
   object-fit: cover;
   z-index: -1;
 }
@@ -22,8 +22,8 @@
 /* Text with Mix-Blend-Mode */
 .blended-text {
   position: absolute;
-  bottom: 100px; /* Adjust this value to control the distance from the bottom */
-  left: 200px;   /* Adjust this value to control the distance from the left */
+  bottom: 200px; /* Adjust this value to control the distance from the bottom */
+  left: 300px;   /* Adjust this value to control the distance from the left */
   color: white; /* Set color to white for better visibility */
   font-size: 5rem;
   max-width: 700px;
@@ -37,7 +37,7 @@
   position: absolute;
   left: 45%;
   color: white; /* Set color to white for better visibility */
-  font-size: 4rem;
+  font-size: 5rem;
   z-index: 3;
   margin-top: 650px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -282,6 +282,7 @@
   align-items: center;
   height: 400vh; /* Just for scrolling */
   position: relative;
+  margin-top: 500px;
   color: white;
   padding: 50px;
 }
@@ -801,8 +802,8 @@
 .logos{
   width: 50px;
   height: 50px;
+  margin: 5px;
   position: relative;
-  padding: 20px;
   z-index: 5;
 }
 .cover{
@@ -1020,9 +1021,10 @@
     top: 450px;
   }
   .hamburger-icon{
-    padding: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height:40px;
+    right: -20px;
+    top: -30px;
     position: relative;
     float: right;
   }
@@ -1031,6 +1033,7 @@
   }
   .stack-container{
     height: 200vh;
+    margin-top: 150px;
   }
   .connecting{
     margin-top: 50px;
@@ -1054,7 +1057,7 @@
     margin-bottom: 100px;
   }
   .background-text{
-    padding-top: 200px;
+    padding-top: -20px;
     font-size: 2rem;
   }
   .stack-card{
@@ -1073,6 +1076,18 @@
     width: 100vh;
     flex-direction: column;
   }
+  .cardapp{
+    width: 90vw;
+  }
+  .background-video {
+    position: fixed; /* Keeps the video in the background as you scroll */
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    z-index: -1;
+  }
 }
 .Mobile-Nav {
   display: flex;
@@ -1083,11 +1098,11 @@
 
 .mobile-nav{
   background-color: white;
+  height: 60px;
 }
 
 .mobile-hero {
   content: '';
-  background: url(/public/Group46.png);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -1095,7 +1110,9 @@
   text-align: center;
   position: relative; /* Keep this relative to ensure the child absolute positioning works */
   clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  top: -60px;
   height: 300px;
+  width: 100vw;
   z-index: 2; /* Place this above the .mobile-back-hero */
 }
 
@@ -1103,7 +1120,7 @@
   content: '';
   background: white; /* Or any background color */
   position: absolute; /* Set this as absolute to overlap with .mobile-hero */
-  top: 100px; /* Ensure the top of both elements align */
+  top: 70px; /* Ensure the top of both elements align */
   left: 0;
   width: 100%; /* Make sure it spans the entire width */
   clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
@@ -1113,6 +1130,7 @@
 
 .mobile-title{
   color: white;
+  mix-blend-mode: difference;
   font-family: "Teko", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -1185,4 +1203,69 @@
 .span{
   justify-content: center;
   text-align: center;
+}
+.event-title{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden; /* Prevent scrolling on the background */
+}
+
+.overlay-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-height: 80vh; /* Limit the height of the modal content */
+  overflow-y: auto; /* Enable scrolling within the modal content */
+  width: 80vw;
+  position: relative; /* For positioning the close button */
+}
+
+/* Fixed close button in the top-right corner */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.team-1 a{
+  text-decoration: none;
+  color: black;
+}
+.team-2 a{
+  text-decoration: none;
+  color: black;
+}
+.close-button:hover {
+  color: red;
+}
+
+/* Example content styling */
+.overlay-content h2 {
+  margin-bottom: 10px;
+}
+
+.overlay-content p {
+  margin-bottom: 20px;
 }

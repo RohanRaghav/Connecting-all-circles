@@ -5,7 +5,6 @@ const Cuboide = ({ cards }) => {
 
   // Adjust these constants to change the speed of scrolling and button rotations
   const scrollIncrement = 2;  // Smaller increment for scrolling
-  const buttonIncrement = 90; // Larger increment for buttons
 
   const handleScroll = (event) => {
     const cuboidElement = document.querySelector('.cuboid-container');
@@ -38,13 +37,7 @@ const Cuboide = ({ cards }) => {
     setRotationX(prevRotation => prevRotation + increment);
   };
 
-  const rotateUpButton = () => {
-    rotateUp(buttonIncrement);
-  };
-
-  const rotateDownButton = () => {
-    rotateDown(buttonIncrement);
-  };
+ 
 
   useEffect(() => {
     window.addEventListener('wheel', handleScroll, { passive: false });
@@ -55,10 +48,6 @@ const Cuboide = ({ cards }) => {
   return (
     <div style={{ display: 'flex', alignItems: 'center',paddingTop:200 }}>
       {/* Buttons Container */}
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', left:300,position:'relative' }}>
-        <button onClick={rotateUpButton} style={{ marginBottom: '10px', color: 'white' }}></button>
-        <button onClick={rotateDownButton} style={{ color: 'white' }}></button>
-      </div>
 
       {/* Cuboid Container */}
       <div className="cuboid-container" style={{ perspective: '1000px' }}>

@@ -10,7 +10,7 @@ const eventData = [
   },
   {
     id: 2,
-    image: '/Bootcamp.jpg',
+    image: '/Boot.jpg',
     headline: 'FrontEnd Bootcamp',
     description: 'The three-day Frontend Web Development Bootcamp equipped participants with essential skills in HTML, CSS, and JavaScript. It fostered hands-on learning, empowering attendees to build dynamic, responsive websites.'
   },
@@ -27,12 +27,6 @@ const eventData = [
     description: 'Tekathon 2.0 encouraged students to solve real-world challenges using advanced technologies. It promoted creativity, teamwork, and skills, helping participants represent our institution at **SIH 2023** with innovative, impactful solutions.'
   },
   {
-    id: 5,
-    image: '/Diwali.jpg',
-    headline: 'Diwali Extra Vaganeza',
-    description: 'The recent Diwali Extravaganza was a vibrant celebration filled with colorful decorations, traditional performances, and delicious festive treats. It brought the community together, fostering joy and cultural appreciation as attendees enjoyed a truly memorable experience.'
-  },
-  {
     id: 6,
     image: 'https://newsstation.media/wp-content/uploads/2024/02/image00282N2-780x398.jpg',
     headline: 'Dark Pattern Buster Hackathon',
@@ -42,7 +36,7 @@ const eventData = [
     id: 7,
     image: '/teknoxian.png',
     headline: 'Teknoxian Internal Competition',
-    description: 'This is a description for Event G.'
+    description: 'We conducted an internal competition of Technoxian World Cup 2024, World biggest robotics competitions where participants from 75+ countries are competing in 45+ sports.'
   }
 ];
 

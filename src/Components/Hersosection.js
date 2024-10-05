@@ -43,9 +43,10 @@ const Herosesection = () => {
   return (
     <div>
       <Navbar />
+      
       <div className="hero-section">
         {/* Background Video */}
-        <video src='/back.mp4' className="background-video" autoPlay loop muted />
+        <video src='/back1.mp4' className="background-video" autoPlay loop muted />
 
         {/* Text with Mix-Blend-Mode */}
         <div className="blended-text">

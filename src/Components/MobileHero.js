@@ -51,6 +51,7 @@ const MobileHero = () => {
       </div>
       <div className='mobile-back-hero'></div>
       <div className='mobile-hero'>
+      <video src='/back1.mp4' className="background-video" autoPlay loop muted />
         <h1 className='mobile-title'>
         Create Memories<br />of<br />lifetime</h1>
       </div>

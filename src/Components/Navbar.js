@@ -36,8 +36,9 @@ const Navbar = () => {
         </div>
         <ul className="navbar-menu">
         <a style={{textDecoration:'none', color:'white'}} href='/'> <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Home</li></a>
+        <a style={{textDecoration:'none', color:'white'}} href='#Service'> <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Service</li></a>
         <a style={{textDecoration:'none', color:'white'}} href='#Event'> <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Events</li></a>
-        <a style={{textDecoration:'none', color:'white'}} href='/Diary'>  <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Diary</li></a>
+        {/* <a style={{textDecoration:'none', color:'white'}} href='/Diary'>  <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Diary</li></a> */}
         <a style={{textDecoration:'none', color:'white'}} href='#Contact'> <li className={`nav-item ${isOpen ? 'slide-in' : ''}`}>Contact</li></a>
         </ul>
         <div>

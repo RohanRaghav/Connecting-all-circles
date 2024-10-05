@@ -1,7 +1,7 @@
 import './App.css';
 import Contact from './Components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Correct imports
-import DiaryHolder from './Components/DiaryHolder';
+// import DiaryHolder from './Components/DiaryHolder';
 import Hero from './Components/Hero';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         
         <Routes>
           <Route path='/' element={<Hero />} />
-          <Route path='/Diary' element={<DiaryHolder />} />
+          {/* <Route path='/Diary' element={<DiaryHolder />} /> */}
         </Routes>
       </Router>
       <footer style={{ background: 'white' }}>
