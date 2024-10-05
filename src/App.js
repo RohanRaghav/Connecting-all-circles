@@ -17,7 +17,7 @@ function App() {
       <footer style={{ background: 'white' }}>
         <Contact />
         <div style={{ display: 'flex', zIndex: 50, justifyContent: 'center', paddingBottom: '10px' }}>
-          © 2024 Copyright: Rohan Raghav
+          © 2024 Copyright: Connecting All Circles
         </div>
       </footer>
     </>

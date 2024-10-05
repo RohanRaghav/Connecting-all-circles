@@ -30,9 +30,9 @@ const MobileHero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const images = [
-    { src: '/Frame 49.png', alt: 'Image 1', link: '#link1' },
-    { src: '/Frame 49-2.png', alt: 'Image 2', link: '#link2' },
-    { src: '/pod.jpg', alt: 'Image 3', link: '#link3' },
+    { src: '/Frame 49.png', alt: 'Image 1', link: 'https://www.instagram.com/cac.cuchd/' },
+    { src: '/Frame 49-2.png', alt: 'Image 2', link: 'https://www.instagram.com/cac.cuchd/' },
+    { src: '/pod.jpg', alt: 'Image 3', link: 'https://www.youtube.com/@insightuniverse.official' },
   ];
 
   useEffect(() => {
