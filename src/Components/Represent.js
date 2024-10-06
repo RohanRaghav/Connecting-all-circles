@@ -106,7 +106,6 @@ const Represent = () => {
               X
             </button>
             <h2>Team Overview</h2>
-            <p>Here you can add more details about the team, roles, and additional information.</p>
             <Team />
             <TeamPart />
           </div>
