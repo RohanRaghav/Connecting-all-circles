@@ -72,6 +72,13 @@ const TeamPart = () => {
             <p style={{fontSize:'0.5rem'}}>Azkiya Qamar</p>
             <p style={{fontSize:'0.5rem'}}>SMM Intern</p></div></a>
         </div>
+        <div className='team-2'>
+        <a href='https://www.linkedin.com/in/shatakshi-bhardwaj-445295281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' rel='noopener noreferrer'>
+            <img src='/Shatakshi.jpg' alt='Faculty'  className='ankitamam' />
+            <div style={{lineHeight:'2px',textAlign:'center'}}>
+            <p style={{fontSize:'0.5rem'}}>Shatakshi Bhardwaj </p>
+            <p style={{fontSize:'0.5rem', maxWidth:'100px',lineHeight:'10px'}}>Graphic designer intern</p></div></a>
+        </div>
         </div>
         </div>
     </div>
