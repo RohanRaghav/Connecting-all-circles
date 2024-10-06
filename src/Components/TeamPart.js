@@ -13,11 +13,11 @@ const TeamPart = () => {
             <p style={{fontSize:'0.5rem'}}>Graphic Design Executive</p></div></a>
         </div>
         <div className='team-2'>
-        <a href='https://www.linkedin.com/in/sushilkumarpatra17a/' target='_blank' rel='noopener noreferrer'>
-            <img src='/Sushil.jpg' alt='Faculty' className='ankitamam' />
+        <a href='https://www.linkedin.com/in/rohan-raghav-b0b07a24a/' target='_blank' rel='noopener noreferrer'>
+            <img src='/Rohan.jpeg' alt='Faculty' className='ankitamam' />
             <div style={{lineHeight:'2px',textAlign:'center'}}>
-            <p style={{fontSize:'0.5rem'}}>Sushil Kumar Patra</p>
-            <p style={{fontSize:'0.5rem', maxWidth:'100px',lineHeight:'10px'}}>Intern</p></div></a>
+            <p style={{fontSize:'0.5rem'}}>Rohan Raghav</p>
+            <p style={{fontSize:'0.5rem', maxWidth:'100px',lineHeight:'10px'}}>Full Stack Developer</p></div></a>
         </div>
         <div className='team-1'>
         <a href='https://www.linkedin.com/in/hem-jakhar/' target='_blank' rel='noopener noreferrer'>
@@ -78,6 +78,13 @@ const TeamPart = () => {
             <div style={{lineHeight:'2px',textAlign:'center'}}>
             <p style={{fontSize:'0.5rem'}}>Shatakshi Bhardwaj </p>
             <p style={{fontSize:'0.5rem', maxWidth:'100px',lineHeight:'10px'}}>Graphic designer intern</p></div></a>
+        </div>
+        <div className='team-1'>
+        <a href='https://www.linkedin.com/in/sushilkumarpatra17a/' target='_blank' rel='noopener noreferrer'>
+            <img src='/Sushil.jpg' alt='Faculty' className='ankitamam' />
+            <div style={{lineHeight:'2px',textAlign:'center'}}>
+            <p style={{fontSize:'0.5rem'}}>Sushil Kumar Patra</p>
+            <p style={{fontSize:'0.5rem', maxWidth:'100px',lineHeight:'10px'}}>HR Intern/ Event Coordinator</p></div></a>
         </div>
         </div>
         </div>
