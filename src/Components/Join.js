@@ -31,7 +31,7 @@ const Join = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:3001/api/register', {
+      const response = await fetch('https://feedserver.vercel.app/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

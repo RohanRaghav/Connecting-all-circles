@@ -4,7 +4,6 @@ import MobileEvent from './MobileEvent';
 import MobileTeam from './MobileTeam';
 import Stackcard from './Stackcard';
 import Slider from './Slider';
-import Join from './Join';
 import MobileJoin from './MobileJoin';
 const Headline = ({ text }) => {
   const typingAnimationElement = useRef(null);
