@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Connecting-all-circles/static/css/main.a95f1aa3.css",
+    "main.js": "/Connecting-all-circles/static/js/main.5f290196.js",
+    "static/js/453.326769de.chunk.js": "/Connecting-all-circles/static/js/453.326769de.chunk.js",
+    "static/media/Greet.png": "/Connecting-all-circles/static/media/Greet.47f3b7a7b98c80fb5d34.png",
+    "static/media/LINK.cur": "/Connecting-all-circles/static/media/LINK.dd007d36ab8cf20b6f3e.cur",
+    "index.html": "/Connecting-all-circles/index.html",
+    "main.a95f1aa3.css.map": "/Connecting-all-circles/static/css/main.a95f1aa3.css.map",
+    "main.5f290196.js.map": "/Connecting-all-circles/static/js/main.5f290196.js.map",
+    "453.326769de.chunk.js.map": "/Connecting-all-circles/static/js/453.326769de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a95f1aa3.css",
+    "static/js/main.5f290196.js"
+  ]
+}
